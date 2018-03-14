@@ -17,4 +17,5 @@ class Artist
     @songs << song
     song.title = t
     song.artist = self
+  end
 end
