@@ -21,6 +21,7 @@ class Artist
   def self.song_count
     count = []
     self.each{|artist| count << artist.songs}
+    count.count
   end
   
 end
